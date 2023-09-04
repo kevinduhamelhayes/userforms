@@ -1,0 +1,28 @@
+.button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none; /* Elimina el contorno que aparece al hacer clic en algunos navegadores */
+  text-align: center;
+  display: inline-block;
+  font-family: 'Arial', sans-serif;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:active {
+  background-color: #003d7a;
+  transform: scale(0.98); /* Añade un pequeño efecto de "presión" al hacer clic */
+}
+
+.button:disabled {
+  background-color: #a5c2e0;
+  cursor: not-allowed;
+}

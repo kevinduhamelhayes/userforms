@@ -1,10 +1,7 @@
+import "./styles/Button.css"
 
-import './styles/Botton.css'
-
-const Botton = () => {
-  return (
-    <div>Botton</div>
-  )
+const Button = ({ children }) => {
+  return <button className="button">{children}</button>
 }
 
-export default Botton
+export default Button;
