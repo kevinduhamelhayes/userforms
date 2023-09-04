@@ -1,0 +1,19 @@
+.field{
+  margin-bottom: 20px;
+}
+.field label{
+  display: block;
+  margin-bottom: 0 0 10px 0;
+  color: #222;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+.field input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #666;
+}
